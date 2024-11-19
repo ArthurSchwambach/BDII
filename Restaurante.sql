@@ -3,7 +3,7 @@ CREATE DATABASE Restaurante;
 USE Restaurante;
 
 -- Tabela Clientes
-CREATE TABLE Clientes (
+CREATE TABLE Cliente (
     id_cliente INT NOT NULL PRIMARY KEY AUTO_INCREMENT,  
     nome VARCHAR(100) NOT NULL,
     telefone VARCHAR(20),
@@ -13,8 +13,8 @@ CREATE TABLE Clientes (
 );
 
 -- Tabela Mesas
-CREATE TABLE Mesas (
-    id_mesa INT NOT NULL PRIMARY KEY AUTO_INCREMENT,  
+CREATE TABLE Mesa (
+    id_mesa INT NOT NULL PRIMARY KEY AUTO_INCREMENT, 
     numero INT NOT NULL,
     capacidade TINYINT NOT NULL,
     disponibilidade_mesa ENUM('Disponível', 'Ocupada', 'Reservada') DEFAULT 'Disponível'
@@ -26,21 +26,20 @@ CREATE TABLE Menu (
     nome VARCHAR(100) NOT NULL,
     descricao TEXT,
     preco DECIMAL(10,2) NOT NULL,
-    disponibilidade VARCHAR(50)
+    disponibilidade_menu ENUM('Disponível', 'Não Disponível') DEFAULT 'Disponível'
 );
 
 -- Tabela Atendentes (substituindo Funcionarios)
-CREATE TABLE Atendentes (
+CREATE TABLE Atendente (
     id_atendente INT NOT NULL PRIMARY KEY AUTO_INCREMENT,  
     nome VARCHAR(100) NOT NULL,
     telefone VARCHAR(20),
     email VARCHAR(100),
-    salario DECIMAL(10,2) NOT NULL CHECK (salario >= 2000),
-    turno VARCHAR(50)
+    salario DECIMAL(10,2) NOT NULL CHECK (salario >= 2000)
 );
 
 -- Tabela Pedidos
-CREATE TABLE Pedidos (
+CREATE TABLE Pedido (
     id_pedido INT NOT NULL PRIMARY KEY AUTO_INCREMENT, 
     id_cliente INT,
     id_mesa INT,
@@ -49,9 +48,9 @@ CREATE TABLE Pedidos (
     fim TIMESTAMP NOT NULL,
     duracao INT GENERATED ALWAYS AS (TIMESTAMPDIFF(SECOND, inicio, fim)) STORED,
     status ENUM('Aberto', 'Fechado', 'Cancelado') DEFAULT 'Aberto',
-    FOREIGN KEY (id_cliente) REFERENCES Clientes(id_cliente),
-    FOREIGN KEY (id_mesa) REFERENCES Mesas(id_mesa),
-    FOREIGN KEY (id_atendente) REFERENCES Atendentes(id_atendente),
+    FOREIGN KEY (id_cliente) REFERENCES Cliente(id_cliente),
+    FOREIGN KEY (id_mesa) REFERENCES Mesa(id_mesa),
+    FOREIGN KEY (id_atendente) REFERENCES Atendente(id_atendente),
     CHECK (fim > inicio)
 );
 
@@ -61,6 +60,6 @@ CREATE TABLE Itens_Pedido (
     id_pedido INT NOT NULL,
     id_menu INT NOT NULL,
     quantidade INT NOT NULL CHECK (quantidade > 0),
-    FOREIGN KEY (id_pedido) REFERENCES Pedidos(id_pedido),
+    FOREIGN KEY (id_pedido) REFERENCES Pedido(id_pedido),
     FOREIGN KEY (id_menu) REFERENCES Menu(id_menu)
 );
