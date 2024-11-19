@@ -1,0 +1,21 @@
+O que podemos fazer:
+Trigger para Ajustar o Status da Mesa
+DELIMITER $$
+
+CREATE TRIGGER atualizar_status_mesa
+AFTER UPDATE ON Pedido
+FOR EACH ROW
+BEGIN
+    IF NEW.status IN ('Fechado', 'Cancelado') THEN
+        UPDATE Mesa
+        SET disponibilidade_mesa = 'Disponível'
+        WHERE id_mesa = NEW.id_mesa;
+    END IF;
+END $$
+
+DELIMITER ;
+
+Select
+Qual o prato mais vendido?
+Cliente que mais comprou
+O Atendente que mais atendeu
