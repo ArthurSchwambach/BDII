@@ -8,7 +8,8 @@ CREATE TABLE Clientes (
     nome VARCHAR(100) NOT NULL,
     telefone VARCHAR(20),
     email VARCHAR(100),
-    gasto DECIMAL(10,2) DEFAULT 0.00
+    gasto DECIMAL(10,2) DEFAULT 0.00,
+    tipo ENUM('Premium', 'Comum') DEFAULT 'Comum'
 );
 
 -- Tabela Mesas
