@@ -1,3 +1,4 @@
+Drop database Restaurante;
 CREATE DATABASE Restaurante;
 USE Restaurante;
 
@@ -22,10 +23,12 @@ CREATE TABLE Mesa (
 DELIMITER $$
 
 CREATE TRIGGER definir_num_mesa
-BEFORE INSERT ON Mesa
+AFTER INSERT ON Mesa
 FOR EACH ROW
 BEGIN
-    SET NEW.numero = NEW.id_mesa;
+    UPDATE Mesa
+    SET numero = NEW.id_mesa
+    WHERE id_mesa = NEW.id_mesa;
 END $$
 
 DELIMITER ;
