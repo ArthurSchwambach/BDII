@@ -1,0 +1,21 @@
+id_pedido,data_hora,status
+1,2024-05-14,finalizado
+2,2024-11-05,em andamento
+3,2024-04-26,finalizado
+4,2024-06-06,em andamento
+5,2024-08-21,em andamento
+6,2024-06-20,em andamento
+7,2024-04-25,em andamento
+8,2024-02-11,em andamento
+9,2024-06-16,finalizado
+10,2024-06-13,finalizado
+11,2024-05-27,em andamento
+12,2024-03-10,finalizado
+13,2024-01-30,finalizado
+14,2023-12-27,em andamento
+15,2024-06-06,finalizado
+16,2024-01-04,em andamento
+17,2024-10-30,finalizado
+18,2024-02-13,em andamento
+19,2024-01-07,finalizado
+20,2024-02-02,em andamento

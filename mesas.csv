@@ -1,0 +1,41 @@
+id_mesa,numero,capacidade,disponibilidade_mesa
+1,27,1,Disponível
+2,19,8,Disponível
+3,39,1,Disponível
+4,31,4,Não disponível
+5,11,3,Não disponível
+6,33,6,Não disponível
+7,30,4,Disponível
+8,25,4,Disponível
+9,33,1,Disponível
+10,13,1,Não disponível
+11,2,4,Disponível
+12,40,4,Disponível
+13,6,5,Não disponível
+14,5,4,Disponível
+15,14,3,Não disponível
+16,32,6,Disponível
+17,9,6,Disponível
+18,24,1,Disponível
+19,35,8,Disponível
+20,22,2,Não disponível
+21,32,1,Disponível
+22,25,7,Não disponível
+23,21,8,Disponível
+24,14,7,Não disponível
+25,19,2,Disponível
+26,34,3,Disponível
+27,3,6,Não disponível
+28,29,5,Disponível
+29,4,8,Disponível
+30,14,2,Não disponível
+31,19,7,Não disponível
+32,2,8,Não disponível
+33,8,3,Não disponível
+34,19,4,Não disponível
+35,17,2,Disponível
+36,19,4,Não disponível
+37,14,5,Não disponível
+38,21,5,Disponível
+39,15,4,Disponível
+40,19,8,Não disponível

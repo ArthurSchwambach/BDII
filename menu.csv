@@ -1,0 +1,16 @@
+id_menu,nome,descricao,preco,disponibilidade
+1,Salada de quinoa com frango grelhado,acompanha um suco,64.51,Disponível
+2,Massa carbonara,acompanha um suco,118.77,Não disponível
+3,Hambúrguer gourmet com batatas fritas,acompanha um suco,144.59,Não disponível
+4,Tacos de carne com guacamole,acompanha um drink,130.5,Não disponível
+5,Bife à parmegiana,acompanha um suco,99.86,Disponível
+6,Hambúrguer gourmet com batatas fritas,acompanha um drink,109.51,Não disponível
+7,Bife à parmegiana,acompanha um suco,188.0,Disponível
+8,Massa carbonara,acompanha um drink,135.29,Disponível
+9,Tacos de carne com guacamole,acompanha um refresco,197.56,Não disponível
+10,Salada de quinoa com frango grelhado,acompanha um suco,141.84,Disponível
+11,Tacos de carne com guacamole,acompanha um suco,63.86,Não disponível
+12,Salmão grelhado com legumes,acompanha um suco,119.87,Não disponível
+13,Salmão grelhado com legumes,acompanha um drink,103.31,Disponível
+14,Tacos de carne com guacamole,acompanha um drink,151.54,Disponível
+15,Tacos de carne com guacamole,acompanha um suco,176.92,Não disponível
