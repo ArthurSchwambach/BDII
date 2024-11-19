@@ -11,39 +11,32 @@ db_connection = mysql.connector.connect(
 cursor = db_connection.cursor()
 
 # Importando a tabela Clientes
-with open('clientes.csv', 'r') as file:
+with open('clientes100.csv', 'r') as file:
     next(file)  # Pula o cabeçalho
     for line in file:
         data = line.strip().split(',')
-        cursor.execute("INSERT INTO Clientes (id_cliente, nome, telefone, email) VALUES (%s, %s, %s, %s)", data)
+        cursor.execute("INSERT INTO Cliente (nome, telefone, email, gasto) VALUES (%s, %s, %s, %s)", data)
 
-# Importando a tabela Mesas
-with open('mesas.csv', 'r') as file:
+# Importando a tabela Clientes
+with open('mesa.csv', 'r') as file:
     next(file)  # Pula o cabeçalho
     for line in file:
         data = line.strip().split(',')
-        cursor.execute("INSERT INTO Mesas (id_mesa,numero, capacidade, disponibilidade_mesa) VALUES (%s, %s, %s, %s)", data)
+        cursor.execute("INSERT INTO Mesa (numero, capacidade) VALUES (%s, %s)", data)
 
 # Importando a tabela Menu
 with open('menu.csv', 'r') as file:
     next(file)  # Pula o cabeçalho
     for line in file:
         data = line.strip().split(',')
-        cursor.execute("INSERT INTO Menu (id_menu, nome, descricao, preco, disponibilidade) VALUES (%s, %s, %s, %s, %s)", data)
+        cursor.execute("INSERT INTO Menu (nome, descricao, preco) VALUES (%s, %s, %s)", data)
 
 # Importando a tabela Funcionarios
-with open('funcionarios.csv', 'r') as file:
+with open('atendente.csv', 'r') as file:
     next(file)  # Pula o cabeçalho
     for line in file:
         data = line.strip().split(',')
-        cursor.execute("INSERT INTO Funcionarios (id_funcionario, nome, cargo, salario) VALUES (%s, %s, %s, %s)", data)
-
-# Importando a tabela Pedidos
-with open('pedidos.csv', 'r') as file:
-    next(file)  # Pula o cabeçalho
-    for line in file:
-        data = line.strip().split(',')
-        cursor.execute("INSERT INTO Pedidos (id_pedido, data_hora, status) VALUES (%s, %s, %s)", data)
+        cursor.execute("INSERT INTO Atendente (nome, telefone, email, salario) VALUES (%s, %s, %s, %s)", data)
 
 # Commit para salvar as mudanças
 db_connection.commit()
