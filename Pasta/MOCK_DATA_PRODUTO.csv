@@ -1,0 +1,1001 @@
+produto_id;nome;preco_compra;preco_venda;estoque
+1;Truffle Shells - White Chocolate;42.88;0.1;40
+2;Juice - Cranberry 284ml;16.32;0.1;26
+3;Wine - Red Oakridge Merlot;84.98;0.1;1
+4;Puree - Mocha;75.06;0.1;15
+5;Soup - Campbells Chicken;55.75;0.1;21
+6;Veal - Brisket. Provimi. Bone - In;67.11;0.1;22
+7;Lobster - Tail. 3 - 4 Oz;51.86;0.1;6
+8;Mortadella;58.67;0.1;41
+9;Schnappes - Peach. Walkers;57.72;0.1;32
+10;Cheese - La Sauvagine;22.09;0.1;2
+11;Tomato - Plum With Basil;34.72;0.1;43
+12;Water - Spring Water. 355 Ml;56.29;0.1;8
+13;Beef - Cow Feet Split;72.01;0.1;33
+14;Soup - Campbells Pasta Fagioli;13.26;0.1;8
+15;Cheese - Le Cheve Noir;32.9;0.1;34
+16;Whmis - Spray Bottle Trigger;75.44;0.1;30
+17;Chicken - White Meat With Tender;93.18;0.1;37
+18;Wine - Casillero Del Diablo;49.17;0.1;9
+19;Mountain Dew;90.58;0.1;43
+20;Pork - Sausage. Medium;72.26;0.1;42
+21;Fish - Atlantic Salmon. Cold;36.77;0.1;42
+22;Wine - Hardys Bankside Shiraz;45.51;0.1;8
+23;Beef - Texas Style Burger;90.07;0.1;12
+24;Muffin Mix - Banana Nut;71.45;0.1;12
+25;Pumpkin;23.77;0.1;9
+26;Wine - White. Mosel Gold;31.45;0.1;48
+27;Fudge - Cream Fudge;79.34;0.1;8
+28;V8 - Berry Blend;97.17;0.1;28
+29;Cheese - Goat With Herbs;29.47;0.1;1
+30;Tomato - Tricolor Cherry;40.0;0.1;26
+31;Juice - Clam. 46 Oz;84.77;0.1;23
+32;Pail - 15l White. With Handle;75.33;0.1;32
+33;Tart Shells - Sweet. 3;83.32;0.1;46
+34;Goat - Whole Cut;55.62;0.1;30
+35;Spinach - Packaged;37.14;0.1;48
+36;Soup - Knorr. Chicken Noodle;64.47;0.1;0
+37;Lamb - Leg. Diced;80.28;0.1;30
+38;Bag - Bread. White. Plain;37.56;0.1;49
+39;Garlic;72.47;0.1;31
+40;Beef - Shank;78.9;0.1;1
+41;Cucumber - Pickling Ontario;63.37;0.1;40
+42;Tomatoes Tear Drop Yellow;42.13;0.1;38
+43;Apples - Sliced / Wedge;94.25;0.1;13
+44;Mace Ground;93.7;0.1;32
+45;Garam Marsala;82.06;0.1;4
+46;Chocolate - Semi Sweet. Calets;28.78;0.1;8
+47;Iced Tea Concentrate;16.9;0.1;26
+48;Juice - Apple. 500 Ml;38.67;0.1;43
+49;Pastry - Carrot Muffin - Mini;15.97;0.1;21
+50;Wine - Casillero Deldiablo;23.7;0.1;24
+51;Quail - Jumbo Boneless;80.51;0.1;45
+52;Plastic Wrap;87.65;0.1;25
+53;Wine - Lamancha Do Crianza;38.74;0.1;14
+54;Ham - Black Forest;34.38;0.1;6
+55;Rabbit - Legs;46.66;0.1;31
+56;Scallops - In Shell;7.63;0.1;22
+57;Beef - Diced;83.93;0.1;2
+58;Kippers - Smoked;83.04;0.1;3
+59;Butter - Salted;84.44;0.1;44
+60;Uniform Linen Charge;64.63;0.1;22
+61;Water - Aquafina Vitamin;40.37;0.1;3
+62;Sprouts - Peppercress;97.59;0.1;38
+63;Cardamon Ground;61.11;0.1;46
+64;Dehydrated Kelp Kombo;33.99;0.1;8
+65;Tea - Darjeeling. Azzura;44.08;0.1;49
+66;Rice - Jasmine Sented;35.72;0.1;40
+67;Oil - Olive. Extra Virgin;62.76;0.1;2
+68;Momiji Oroshi Chili Sauce;72.11;0.1;47
+69;Filter - Coffee;63.33;0.1;6
+70;Garlic - Primerba. Paste;8.35;0.1;14
+71;Bouq All Italian - Primerba;27.76;0.1;14
+72;Cake Slab;60.77;0.1;28
+73;Nantucket - Pomegranate Pear;55.56;0.1;28
+74;Cornish Hen;24.43;0.1;27
+75;Potato - Sweet;18.48;0.1;14
+76;Ham - Procutinni;54.24;0.1;7
+77;Seedlings - Clamshell;28.93;0.1;49
+78;Longos - Assorted Sandwich;78.44;0.1;43
+79;Ice Cream Bar - Hagen Daz;87.0;0.1;19
+80;Wine - Chablis J Moreau Et Fils;68.36;0.1;41
+81;Oil - Olive;31.92;0.1;22
+82;Tendrils - Baby Pea. Organic;3.25;0.1;5
+83;Vinegar - White Wine;42.73;0.1;25
+84;Fish - Soup Base. Bouillon;25.9;0.1;44
+85;Chicken Breast Wing On;21.0;0.1;40
+86;Soup Campbells Beef With Veg;88.63;0.1;50
+87;Fish - Scallops. Cold Smoked;60.52;0.1;20
+88;Grenadillo;24.66;0.1;8
+89;Wine - Shiraz Wolf Blass Premium;81.28;0.1;15
+90;Soho Lychee Liqueur;86.97;0.1;47
+91;Crackers - Water;53.68;0.1;29
+92;Lime Cordial - Roses;50.84;0.1;2
+93;Cheese - Romano. Grated;55.7;0.1;14
+94;Filling - Mince Meat;35.33;0.1;41
+95;Cake - Lemon Chiffon;4.7;0.1;19
+96;Muffin Orange Individual;79.73;0.1;33
+97;Wine - Carmenere Casillero Del;50.33;0.1;15
+98;Chips - Potato Jalapeno;4.9;0.1;46
+99;Wine - Alsace Gewurztraminer;1.84;0.1;14
+100;Soho Lychee Liqueur;93.92;0.1;44
+101;Star Anise. Whole;74.88;0.1;6
+102;Wine - White. Antinore Orvieto;36.4;0.1;43
+103;Squid - Tubes / Tenticles 10/20;96.73;0.1;49
+104;Versatainer Nc - 888;85.06;0.1;44
+105;Rambutan;43.09;0.1;37
+106;Crab - Meat;52.92;0.1;34
+107;Sage - Ground;77.18;0.1;16
+108;Irish Cream - Baileys;22.11;0.1;3
+109;Milk 2% 500 Ml;33.49;0.1;39
+110;Beer - Camerons Auburn;43.3;0.1;8
+111;Lamb - Racks. Frenched;19.68;0.1;34
+112;Vinegar - Raspberry;74.75;0.1;9
+113;Wine - Magnotta - Belpaese;36.28;0.1;42
+114;Yogurt - Peach. 175 Gr;25.45;0.1;39
+115;Cheese - Cheddar. Medium;57.95;0.1;30
+116;Jolt Cola;55.41;0.1;40
+117;Broom And Broom Rack White;7.95;0.1;8
+118;Apples - Sliced / Wedge;6.35;0.1;13
+119;Rappini - Andy Boy;52.36;0.1;9
+120;Wine - Red. Harrow Estates. Cab;35.98;0.1;7
+121;Sugar - Crumb;42.41;0.1;48
+122;Yogurt - Assorted Pack;66.27;0.1;45
+123;Crab - Imitation Flakes;60.85;0.1;27
+124;Carbonated Water - Lemon Lime;77.61;0.1;26
+125;Juice - Lagoon Mango;12.13;0.1;2
+126;Beans - Kidney. Red Dry;78.61;0.1;24
+127;Tart Shells - Sweet. 4;19.85;0.1;7
+128;Wine - Periguita Fonseca;20.74;0.1;18
+129;Salt - Rock. Course;89.24;0.1;45
+130;Pectin;89.59;0.1;37
+131;Wine - Magnotta. White;78.64;0.1;35
+132;Schnappes - Peach. Walkers;42.65;0.1;11
+133;Apple - Granny Smith;91.52;0.1;3
+134;Potatoes - Fingerling 4 Oz;7.97;0.1;8
+135;Bread - 10 Grain Parisian;93.94;0.1;38
+136;Pasta - Agnolotti - Butternut;20.19;0.1;38
+137;Quail - Jumbo Boneless;47.94;0.1;31
+138;Beef - Shank;16.5;0.1;40
+139;Bread Base - Italian;17.78;0.1;29
+140;Pasta - Tortellini. Fresh;64.43;0.1;30
+141;Coffee Decaf Colombian;69.18;0.1;45
+142;Wine - Fume Blanc Fetzer;55.53;0.1;50
+143;Truffle - Whole Black Peeled;34.21;0.1;26
+144;Cheese - Cream Cheese;63.1;0.1;9
+145;Pear - Halves;53.8;0.1;43
+146;Pastry - Baked Scones - Mini;59.28;0.1;48
+147;Cheese - Cheddar. Mild;79.04;0.1;18
+148;Chicken - White Meat With Tender;51.1;0.1;30
+149;Coffee Beans - Chocolate;42.24;0.1;29
+150;Yogurt - Raspberry. 175 Gr;60.08;0.1;13
+151;Fennel;84.83;0.1;17
+152;Wine - Conde De Valdemar;87.7;0.1;23
+153;Tea Leaves - Oolong;5.33;0.1;11
+154;Lobster - Tail. 3 - 4 Oz;62.1;0.1;50
+155;Cookie - Oreo 100x2;62.79;0.1;49
+156;Wine - Red. Black Opal Shiraz;52.57;0.1;18
+157;Nougat - Paste / Cream;87.1;0.1;2
+158;Muffin Mix - Chocolate Chip;70.52;0.1;21
+159;Island Oasis - Mango Daiquiri;44.39;0.1;35
+160;Pasta - Ravioli;63.87;0.1;3
+161;Paper - Brown Paper Mini Cups;92.67;0.1;1
+162;Lady Fingers;1.02;0.1;40
+163;Wine - Saint Emilion Calvet;83.77;0.1;50
+164;Lemon Balm - Fresh;52.49;0.1;30
+165;Pop Shoppe Cream Soda;23.77;0.1;43
+166;Cake Slab;19.49;0.1;24
+167;Napkin Colour;54.9;0.1;15
+168;Chivas Regal - 12 Year Old;74.67;0.1;12
+169;Wood Chips - Regular;3.76;0.1;26
+170;Chick Peas - Canned;45.12;0.1;15
+171;Salt - Sea;55.84;0.1;11
+172;Pastry - Butterscotch Baked;15.57;0.1;15
+173;Garam Marsala;90.66;0.1;46
+174;Beans - Kidney. Red Dry;54.5;0.1;25
+175;Vinegar - Red Wine;33.22;0.1;3
+176;Pork - Butt. Boneless;7.57;0.1;45
+177;Almonds Ground Blanched;87.56;0.1;10
+178;Brandy - Orange. Mc Guiness;73.93;0.1;45
+179;Lamb Shoulder Boneless Nz;50.66;0.1;28
+180;Butter - Unsalted;34.21;0.1;47
+181;Silicone Parch. 16.3x24.3;98.13;0.1;18
+182;Spoon - Soup. Plastic;48.43;0.1;50
+183;Juice Peach Nectar;51.08;0.1;6
+184;Dates;88.51;0.1;27
+185;Table Cloth 144x90 White;48.99;0.1;13
+186;Oil - Avocado;16.42;0.1;41
+187;Compound - Pear;59.82;0.1;22
+188;Miso - Soy Bean Paste;24.84;0.1;7
+189;Pork - Butt. Boneless;37.63;0.1;1
+190;Trout Rainbow Whole;76.62;0.1;25
+191;Pear - Prickly;29.76;0.1;9
+192;Sage Ground Wiberg;11.28;0.1;13
+193;Beef - Ground Medium;43.63;0.1;19
+194;Pie Box - Cello Window 2.5;11.33;0.1;50
+195;Chicken - Leg. Boneless;24.73;0.1;28
+196;Veal - Liver;16.01;0.1;43
+197;Bagelers - Cinn / Brown;38.91;0.1;26
+198;Oil - Olive. Extra Virgin;34.74;0.1;10
+199;Pecan Raisin - Tarts;66.71;0.1;39
+200;Juice - Clamato. 341 Ml;35.02;0.1;39
+201;Prunes - Pitted;95.22;0.1;24
+202;Nut - Peanut. Roasted;85.77;0.1;26
+203;Sauce - White. Mix;53.45;0.1;39
+204;Table Cloth 54x72 White;47.28;0.1;38
+205;Limes;65.37;0.1;6
+206;Cranberries - Fresh;81.87;0.1;16
+207;Sausage - Liver;47.14;0.1;29
+208;Ice Cream - Turtles Stick Bar;94.51;0.1;1
+209;Sauce Bbq Smokey;75.48;0.1;27
+210;Catfish - Fillets;91.26;0.1;26
+211;Squid - U - 10 Thailand;80.73;0.1;0
+212;Lamb - Whole Head Off;42.37;0.1;7
+213;Appetiser - Bought;79.63;0.1;15
+214;Pate - Cognac;18.13;0.1;5
+215;Cookie Trail Mix;28.24;0.1;31
+216;Chips - Doritos;4.73;0.1;48
+217;Salmon - Fillets;19.63;0.1;1
+218;Calvados - Boulard;91.58;0.1;37
+219;Thyme - Lemon. Fresh;55.94;0.1;15
+220;Salmon - Smoked. Sliced;37.71;0.1;37
+221;Wine - White. Colubia Cresh;69.72;0.1;46
+222;Hersey Shakes;91.67;0.1;21
+223;Hummus - Spread;17.13;0.1;1
+224;Croissants Thaw And Serve;72.19;0.1;49
+225;Pastry - Choclate Baked;64.83;0.1;28
+226;Sour Puss - Tangerine;79.15;0.1;12
+227;Icecream Cone - Areo Chocolate;49.69;0.1;1
+228;Muffin Mix - Blueberry;35.29;0.1;44
+229;Beef - Tenderloin;4.97;0.1;36
+230;Brocolinni - Gaylan. Chinese;35.36;0.1;24
+231;Cake - Mini Potato Pancake;72.69;0.1;30
+232;Peas - Frozen;48.74;0.1;7
+233;Beer - Sleeman Fine Porter;64.0;0.1;20
+234;Cake Circle. Paprus;61.27;0.1;4
+235;Graham Cracker Mix;89.26;0.1;15
+236;Graham Cracker Mix;78.04;0.1;1
+237;Muffin Hinge - 211n;31.89;0.1;21
+238;Pie Filling - Apple;31.46;0.1;14
+239;Sponge Cake Mix - Vanilla;56.89;0.1;11
+240;Cleaner - Pine Sol;14.14;0.1;8
+241;Radish;92.56;0.1;42
+242;Rice Wine - Aji Mirin;60.17;0.1;28
+243;Capers - Pickled;74.59;0.1;45
+244;Chutney Sauce;25.46;0.1;1
+245;Grapes - Black;47.91;0.1;30
+246;Beef - Tenderloin;36.28;0.1;50
+247;Pepper - Black. Whole;76.53;0.1;37
+248;Vodka - Lemon. Absolut;27.05;0.1;43
+249;Squash - Guords;57.32;0.1;49
+250;Uniform Linen Charge;38.92;0.1;27
+251;Yogurt - Banana. 175 Gr;56.78;0.1;40
+252;Sugar - Invert;2.47;0.1;10
+253;Vaccum Bag 10x13;73.91;0.1;25
+254;Muffin Mix - Oatmeal;98.36;0.1;3
+255;Yogurt - Plain;2.5;0.1;22
+256;Lettuce - Sea / Sea Asparagus;24.69;0.1;19
+257;Longos - Assorted Sandwich;73.69;0.1;21
+258;Chicken Breast Wing On;52.26;0.1;11
+259;Cookie - Dough Variety;55.41;0.1;47
+260;Mousse - Banana Chocolate;28.55;0.1;40
+261;Beets - Golden;16.89;0.1;42
+262;Bread - Corn Muffaleta Onion;60.19;0.1;12
+263;Aromat Spice / Seasoning;51.46;0.1;14
+264;Wine - Alsace Riesling Reserve;59.55;0.1;29
+265;Rum - White. Gg White;44.47;0.1;33
+266;Oil - Pumpkinseed;30.88;0.1;23
+267;Mustard - Dijon;6.44;0.1;39
+268;Pork - Back Ribs;2.36;0.1;40
+269;Pear - Packum;98.92;0.1;45
+270;Buffalo - Short Rib Fresh;67.97;0.1;37
+271;Garbage Bags - Black;92.56;0.1;9
+272;Oil - Cooking Spray;7.34;0.1;50
+273;Bread - Rye;76.32;0.1;18
+274;Pastry - Baked Cinnamon Stick;57.39;0.1;4
+275;Capon - Breast. Double. Wing On;10.11;0.1;6
+276;Artichoke - Bottom. Canned;29.95;0.1;21
+277;Cake - Cheese Cake 9 Inch;78.79;0.1;49
+278;Guinea Fowl;41.92;0.1;17
+279;Truffle Paste;59.0;0.1;49
+280;Wine - Red. Cooking;79.65;0.1;48
+281;Wine - Soave Folonari;97.69;0.1;5
+282;Sour Puss Sour Apple;53.31;0.1;45
+283;Truffle Cups Green;7.63;0.1;30
+284;Chilli Paste. Sambal Oelek;20.13;0.1;1
+285;Shrimp - 16/20. Iqf. Shell On;6.76;0.1;18
+286;Nantucket - Carrot Orange;67.21;0.1;39
+287;Plasticforkblack;75.57;0.1;47
+288;Container - Hngd Cll Blk 7x7x3;77.07;0.1;6
+289;Pepper - Roasted Red;63.38;0.1;29
+290;Ice Cream - Super Sandwich;3.5;0.1;9
+291;Brocolinni - Gaylan. Chinese;30.62;0.1;1
+292;Mousse - Passion Fruit;26.21;0.1;47
+293;Steamers White;24.06;0.1;23
+294;Syrup - Monin. Swiss Choclate;95.79;0.1;31
+295;Wine - Zinfandel Rosenblum;65.95;0.1;40
+296;Pasta - Canelloni;86.33;0.1;20
+297;Lamb - Shoulder. Boneless;78.35;0.1;45
+298;Rice Paper;62.09;0.1;41
+299;Chinese Foods - Pepper Beef;42.97;0.1;8
+300;Syrup - Monin - Passion Fruit;12.71;0.1;25
+301;Tomatoes - Diced. Canned;52.61;0.1;7
+302;Chicken - Base;47.9;0.1;3
+303;Basil - Seedlings Cookstown;52.67;0.1;8
+304;Garlic - Elephant;15.47;0.1;39
+305;Tomatoes - Grape;13.93;0.1;27
+306;Beef - Bones. Marrow;32.3;0.1;27
+307;Container - Hngd Cll Blk 7x7x3;94.9;0.1;24
+308;Honey - Liquid;2.26;0.1;37
+309;Turkey - Whole. Fresh;96.08;0.1;23
+310;Yoplait Drink;77.92;0.1;39
+311;Beer - Tetleys;20.19;0.1;44
+312;White Fish - Filets;76.2;0.1;23
+313;Veal - Striploin;17.32;0.1;43
+314;Cookies Cereal Nut;19.73;0.1;20
+315;Danishes - Mini Cheese;34.57;0.1;48
+316;Sauce - White. Mix;75.3;0.1;47
+317;Coffee - Almond Amaretto;26.34;0.1;35
+318;Turnip - White. Organic;2.5;0.1;45
+319;Kellogs Special K Cereal;94.7;0.1;32
+320;Wine - White. Antinore Orvieto;46.62;0.1;3
+321;Bread - 10 Grain Parisian;25.05;0.1;47
+322;Cheese - Cheddar With Claret;4.55;0.1;42
+323;Fork - Plastic;88.16;0.1;36
+324;Oil - Coconut;58.95;0.1;25
+325;Beer - Blue Light;55.3;0.1;25
+326;Eggplant Oriental;73.75;0.1;49
+327;Wanton Wrap;2.46;0.1;36
+328;Salmon Steak - Cohoe 8 Oz;13.26;0.1;3
+329;Ginger - Pickled;6.31;0.1;24
+330;Tomatoes - Vine Ripe. Yellow;94.66;0.1;42
+331;Tea - Camomele;91.36;0.1;11
+332;Chicken Breast Halal;17.41;0.1;9
+333;Curry Paste - Green Masala;65.14;0.1;30
+334;Pork - Ham Hocks - Smoked;69.93;0.1;43
+335;Snapple - Mango Maddness;60.4;0.1;26
+336;Dawn Professionl Pot And Pan;55.01;0.1;41
+337;Cheese - Asiago;68.29;0.1;47
+338;Cheese - Havarti. Roasted Garlic;57.48;0.1;49
+339;Sprouts - Peppercress;32.15;0.1;40
+340;Bread Fig And Almond;14.44;0.1;23
+341;Juice - Apple Cider;92.96;0.1;48
+342;Soup Campbells - Italian Wedding;48.49;0.1;7
+343;Flour - Cake;78.02;0.1;36
+344;Rappini - Andy Boy;39.27;0.1;38
+345;Chinese Lemon Pork;55.69;0.1;33
+346;Bread - Bagels. Plain;14.02;0.1;5
+347;Lid Coffee Cup 8oz Blk;38.76;0.1;39
+348;Ezy Change Mophandle;10.0;0.1;42
+349;Muffin Carrot - Individual;67.76;0.1;39
+350;Cheese - Wine;85.17;0.1;22
+351;Pasta - Rotini. Dry;46.74;0.1;1
+352;Mushrooms - Black. Dried;65.4;0.1;21
+353;Pepper - Paprika. Spanish;31.39;0.1;24
+354;Apricots - Dried;68.25;0.1;19
+355;Juice - Cranberry 284ml;6.34;0.1;43
+356;Tea - Herbal Orange Spice;65.09;0.1;5
+357;Soup - Campbells - Chicken Noodle;50.74;0.1;21
+358;Napkin - Beverge. White 2 - Ply;64.28;0.1;37
+359;Bread - Dark Rye;98.18;0.1;3
+360;Chicken - Wings. Tip Off;58.94;0.1;4
+361;Energy Drink Red Bull;42.15;0.1;8
+362;Pie Filling - Pumpkin;26.52;0.1;38
+363;Table Cloth 90x90 Colour;82.72;0.1;27
+364;Crackers - Water;46.4;0.1;26
+365;Veal - Slab Bacon;57.44;0.1;31
+366;Wine - White. Riesling. Henry Of;79.86;0.1;16
+367;Corn Meal;30.77;0.1;16
+368;Bread - Crusty Italian Poly;67.22;0.1;37
+369;Garlic;81.72;0.1;16
+370;Dc - Frozen Momji;56.44;0.1;15
+371;Tea - Jasmin Green;12.31;0.1;35
+372;Milk - Buttermilk;34.3;0.1;36
+373;Bread - Roll. Whole Wheat;7.64;0.1;35
+374;Seabream Whole Farmed;4.1;0.1;37
+375;Syrup - Golden. Lyles;44.57;0.1;23
+376;Chocolate Bar - Oh Henry;46.67;0.1;10
+377;Squash - Pattypan. Yellow;66.73;0.1;19
+378;Soup - Boston Clam Chowder;57.09;0.1;3
+379;Wine - Magnotta - Red. Baco;4.81;0.1;28
+380;Muffin Batt - Choc Chk;77.67;0.1;49
+381;Champagne - Brights. Dry;56.4;0.1;37
+382;Mustard - Individual Pkg;10.3;0.1;31
+383;Longos - Burritos;16.79;0.1;40
+384;Lamb Rack - Ontario;98.71;0.1;5
+385;Pea - Snow;14.81;0.1;24
+386;Bread Ww Cluster;35.27;0.1;31
+387;Turkey - Breast. Bone - In;24.62;0.1;15
+388;Lid - 3oz Med Rec;13.81;0.1;4
+389;Tuna - Yellowfin;22.45;0.1;39
+390;Flour - Masa De Harina Mexican;32.56;0.1;47
+391;Tomatoes - Roma;17.94;0.1;30
+392;Chips - Miss Vickies;78.24;0.1;50
+393;Oats Large Flake;49.18;0.1;1
+394;Oil - Sunflower;28.86;0.1;32
+395;Curry Powder;39.26;0.1;11
+396;Bag Stand;34.82;0.1;29
+397;Beef Flat Iron Steak;34.53;0.1;29
+398;Goulash Seasoning;18.55;0.1;45
+399;Cheese - Brick With Onion;24.5;0.1;26
+400;Sultanas;55.47;0.1;3
+401;Bamboo Shoots - Sliced;55.97;0.1;4
+402;Tea - Vanilla Chai;20.95;0.1;43
+403;Cheese - Stilton;4.23;0.1;34
+404;Rice Pilaf. Dry.package;93.92;0.1;34
+405;Macaroons - Homestyle Two Bit;34.99;0.1;1
+406;Rum - White. Gg White;54.1;0.1;0
+407;Anchovy Paste - 56 G Tube;26.65;0.1;26
+408;Chivas Regal - 12 Year Old;79.1;0.1;22
+409;Creme De Menthe Green;53.1;0.1;48
+410;Raspberries - Frozen;47.0;0.1;1
+411;Cookies - Amaretto;93.96;0.1;9
+412;Venison - Ground;28.08;0.1;10
+413;Pastry - Banana Muffin - Mini;95.88;0.1;15
+414;Sprouts - Pea;72.22;0.1;23
+415;Teriyaki Sauce;54.53;0.1;12
+416;Energy Drink - Franks Pineapple;29.88;0.1;45
+417;Beef - Tenderloin;18.75;0.1;36
+418;Lettuce - California Mix;72.32;0.1;39
+419;Caviar - Salmon;81.41;0.1;38
+420;Veal - Inside Round / Top. Lean;83.78;0.1;14
+421;Knife Plastic - White;14.66;0.1;23
+422;Coffee - Dark Roast;30.64;0.1;30
+423;Wine - Chianti Classico Riserva;78.93;0.1;22
+424;Country Roll;34.27;0.1;41
+425;Cloves - Ground;74.22;0.1;21
+426;Mix Pina Colada;96.77;0.1;34
+427;Chutney Sauce - Mango;58.22;0.1;8
+428;Goat - Leg;84.82;0.1;32
+429;Vodka - Lemon. Absolut;57.53;0.1;28
+430;Pork - Ground;68.44;0.1;6
+431;Triple Sec - Mcguinness;6.18;0.1;6
+432;Brocolinni - Gaylan. Chinese;43.48;0.1;14
+433;Tarragon - Primerba. Paste;82.9;0.1;19
+434;Lamb - Rack;12.88;0.1;11
+435;Vermacelli - Sprinkles. Assorted;61.12;0.1;22
+436;Mix - Cappucino Cocktail;74.19;0.1;14
+437;Lamb - Racks. Frenched;69.66;0.1;42
+438;Cake - Sheet Strawberry;37.54;0.1;47
+439;Silicone Paper 16.5x24;70.37;0.1;22
+440;Tomato Puree;86.19;0.1;5
+441;Steampan - Half Size Shallow;98.34;0.1;38
+442;Soupcontfoam16oz 116con;44.5;0.1;9
+443;Buffalo - Tenderloin;80.25;0.1;34
+444;Cranberries - Dry;78.32;0.1;11
+445;Wine - Alsace Gewurztraminer;71.21;0.1;48
+446;Table Cloth 144x90 White;6.64;0.1;18
+447;Wine - Casillero Deldiablo;38.45;0.1;47
+448;Rice Wine - Aji Mirin;88.86;0.1;1
+449;Anchovy Paste - 56 G Tube;1.17;0.1;19
+450;Lettuce - Romaine;50.38;0.1;48
+451;Mahi Mahi;91.03;0.1;19
+452;Anchovy Paste - 56 G Tube;95.66;0.1;11
+453;Cookie Dough - Double;65.97;0.1;27
+454;Eggplant - Asian;32.16;0.1;3
+455;Sauce - Salsa;36.19;0.1;21
+456;Pan Grease;18.78;0.1;47
+457;Flounder - Fresh;72.72;0.1;45
+458;Cornish Hen;10.73;0.1;40
+459;Fudge - Chocolate Fudge;26.54;0.1;15
+460;Muffin Mix - Chocolate Chip;46.93;0.1;31
+461;Beef - Bresaola;89.35;0.1;39
+462;Wine - Saint - Bris 2002. Sauv;4.53;0.1;47
+463;Pork - Back. Short Cut. Boneless;32.87;0.1;1
+464;C - Plus. Orange;42.7;0.1;36
+465;Chips Potato Reg 43g;97.38;0.1;11
+466;Cookie Dough - Peanut Butter;53.47;0.1;22
+467;Ginger - Crystalized;77.55;0.1;44
+468;Uniform Linen Charge;12.6;0.1;21
+469;Yogurt - Blueberry. 175 Gr;82.16;0.1;20
+470;Cocoa Feuilletine;47.38;0.1;43
+471;Samosa - Veg;28.78;0.1;20
+472;Ginger - Crystalized;49.92;0.1;30
+473;Worcestershire Sauce;74.74;0.1;10
+474;Bread Country Roll;31.46;0.1;48
+475;Placemat - Scallop. White;11.53;0.1;27
+476;Syrup - Monin - Passion Fruit;21.32;0.1;49
+477;Wine - Red. Concha Y Toro;17.11;0.1;23
+478;Wine - Baron De Rothschild;36.16;0.1;8
+479;Flower - Commercial Spider;66.14;0.1;30
+480;Chicken - Ground;28.06;0.1;19
+481;Chinese Foods - Chicken Wing;82.83;0.1;31
+482;Beer - Creemore;86.38;0.1;29
+483;Beef - Short Ribs;83.78;0.1;15
+484;Glucose;86.36;0.1;46
+485;Pineapple - Regular;46.79;0.1;36
+486;Scallops - In Shell;36.04;0.1;10
+487;Pasta - Rotini. Dry;38.72;0.1;30
+488;Turnip - Mini;2.76;0.1;8
+489;Lemonade - Pineapple Passion;38.14;0.1;44
+490;Calypso - Strawberry Lemonade;43.48;0.1;14
+491;Apricots - Halves;92.86;0.1;20
+492;Strawberries - California;36.98;0.1;2
+493;Ginger - Ground;80.93;0.1;2
+494;Pepsi - Diet. 355 Ml;84.17;0.1;27
+495;Tray - Foam. Square 4 - S;41.23;0.1;2
+496;Soup - Knorr. Ministrone;88.8;0.1;47
+497;Tea - Herbal - 6 Asst;6.55;0.1;11
+498;Cheese - Bocconcini;12.18;0.1;47
+499;Ranchero - Primerba. Paste;41.67;0.1;16
+500;Longos - Grilled Salmon With Bbq;60.12;0.1;31
+501;Cheese - Victor Et Berthold;15.67;0.1;34
+502;Tomatoes;30.95;0.1;3
+503;Wine - Charddonnay Errazuriz;6.87;0.1;50
+504;Chicken - Ground;44.37;0.1;24
+505;Fish - Base. Bouillion;98.79;0.1;23
+506;Beef - Ground Medium;70.25;0.1;43
+507;Food Colouring - Blue;95.77;0.1;4
+508;Skirt - 29 Foot;93.86;0.1;5
+509;Soup - Campbells Chili Veg;84.76;0.1;29
+510;Wine - Zinfandel Rosenblum;65.54;0.1;38
+511;Apricots Fresh;73.98;0.1;23
+512;V8 Splash Strawberry Banana;41.72;0.1;6
+513;Cream - 35%;34.49;0.1;2
+514;Muffin Mix - Chocolate Chip;52.08;0.1;14
+515;Rolled Oats;67.15;0.1;19
+516;Nacho Chips;61.68;0.1;27
+517;Wine - Fume Blanc Fetzer;62.67;0.1;21
+518;Marjoram - Dried. Rubbed;46.2;0.1;31
+519;Fish - Bones;38.87;0.1;19
+520;Cheese - Oka;56.78;0.1;46
+521;Quail - Jumbo;24.63;0.1;10
+522;Guava;56.26;0.1;24
+523;Duck - Breast;25.71;0.1;30
+524;Swiss Chard - Red;38.33;0.1;50
+525;Sauce Tomato Pouch;56.55;0.1;48
+526;Cheese - Comte;72.68;0.1;23
+527;Energy Drink Red Bull;61.95;0.1;6
+528;Tea - English Breakfast;79.31;0.1;25
+529;Pate - Peppercorn;14.96;0.1;48
+530;Sauce - Mint;66.26;0.1;14
+531;Plate Pie Foil;97.58;0.1;39
+532;Bread - Calabrese Baguette;25.2;0.1;21
+533;White Fish - Filets;75.2;0.1;9
+534;Wild Boar - Tenderloin;98.22;0.1;29
+535;Mussels - Cultivated;38.21;0.1;14
+536;Kumquat;75.14;0.1;0
+537;Juice - Orange. Concentrate;80.49;0.1;45
+538;Cheese Cloth No 60;52.59;0.1;9
+539;Ranchero - Primerba. Paste;75.74;0.1;45
+540;Tomatoes - Cherry. Yellow;46.88;0.1;2
+541;Rosemary - Primerba. Paste;64.28;0.1;2
+542;Bread - Multigrain. Loaf;81.45;0.1;44
+543;Tea - Lemon Green Tea;25.04;0.1;34
+544;Herb Du Provence - Primerba;70.23;0.1;7
+545;Fuji Apples;13.83;0.1;29
+546;Mackerel Whole Fresh;33.07;0.1;41
+547;Potatoes - Idaho 100 Count;5.35;0.1;3
+548;Barley - Pearl;66.1;0.1;43
+549;Tofu - Firm;43.65;0.1;24
+550;Lamb Tenderloin Nz Fr;53.37;0.1;4
+551;Pan Grease;86.05;0.1;45
+552;Pork - Loin. Boneless;57.53;0.1;14
+553;Butter Balls Salted;89.98;0.1;47
+554;Sauce - Soy Low Sodium - 3.87l;60.38;0.1;44
+555;Wine - Port Late Bottled Vintage;15.77;0.1;50
+556;Mushrooms - Black. Dried;61.62;0.1;31
+557;Wine - Fontanafredda Barolo;3.08;0.1;22
+558;Tarragon - Primerba. Paste;3.52;0.1;0
+559;Water Chestnut - Canned;39.47;0.1;8
+560;Onion - Dried;8.26;0.1;43
+561;Chocolate - Semi Sweet;71.64;0.1;42
+562;Wine - Harrow Estates. Vidal;82.99;0.1;22
+563;Cheese - Mozzarella. Buffalo;60.47;0.1;45
+564;Bar Mix - Lime;39.91;0.1;26
+565;Soup V8 Roasted Red Pepper;26.16;0.1;33
+566;Bread - Roll. Calabrese;97.16;0.1;50
+567;Pineapple - Golden;33.47;0.1;1
+568;Wine - Puligny Montrachet A.;78.81;0.1;6
+569;Flour - Chickpea;8.58;0.1;3
+570;Wine - Casablanca Valley;42.2;0.1;45
+571;Flour - Pastry;1.91;0.1;17
+572;Bacardi Mojito;57.8;0.1;38
+573;Crab Meat Claw Pasteurise;76.92;0.1;27
+574;Sauce - Black Current. Dry Mix;5.13;0.1;8
+575;Syrup - Monin - Passion Fruit;41.75;0.1;41
+576;Plasticforkblack;53.63;0.1;42
+577;Bagels Poppyseed;11.14;0.1;49
+578;Bread - Sticks. Thin. Plain;20.68;0.1;1
+579;Mousse - Passion Fruit;83.82;0.1;37
+580;Bread Base - Italian;6.83;0.1;36
+581;Ice Cream - Chocolate;87.71;0.1;49
+582;Pasta - Shells. Medium. Dry;52.52;0.1;38
+583;Cheese - Camembert;9.04;0.1;42
+584;Ice Cream Bar - Hageen Daz To;35.76;0.1;10
+585;Vacuum Bags 12x16;57.82;0.1;42
+586;Milk - Chocolate 250 Ml;20.06;0.1;50
+587;Hot Chocolate - Individual;82.93;0.1;28
+588;Rappini - Andy Boy;97.97;0.1;32
+589;Peas - Pigeon. Dry;70.69;0.1;22
+590;Vinegar - Raspberry;43.53;0.1;32
+591;Sprite. Diet - 355ml;9.9;0.1;0
+592;Flour - Bread;39.5;0.1;31
+593;Table Cloth 53x69 White;2.84;0.1;31
+594;Soup - Knorr. Ministrone;71.96;0.1;26
+595;The Pop Shoppe - Grape;18.87;0.1;2
+596;Truffle Cups - White Paper;91.71;0.1;41
+597;Apple - Royal Gala;68.75;0.1;42
+598;Turnip - Mini;36.19;0.1;1
+599;Samosa - Veg;79.85;0.1;4
+600;Nut - Almond. Blanched. Whole;71.57;0.1;23
+601;Ham - Proscuitto;86.32;0.1;24
+602;Pastry - Banana Tea Loaf;44.81;0.1;41
+603;Jam - Raspberry.jar;73.7;0.1;7
+604;Soap - Pine Sol Floor Cleaner;10.2;0.1;42
+605;Arctic Char - Fillets;45.64;0.1;11
+606;Glaze - Clear;10.84;0.1;39
+607;Bread - Burger;52.91;0.1;6
+608;Soap - Hand Soap;82.89;0.1;36
+609;Zucchini - Mini. Green;19.72;0.1;48
+610;Wine - Masi Valpolocell;60.72;0.1;13
+611;Sponge Cake Mix - Chocolate;88.24;0.1;7
+612;Beef - Sushi Flat Iron Steak;25.59;0.1;27
+613;Sauce - Bernaise. Mix;38.91;0.1;46
+614;Mix Pina Colada;18.04;0.1;5
+615;Wine - White. Pelee Island;93.16;0.1;27
+616;Nut - Hazelnut. Whole;6.57;0.1;39
+617;Bread Base - Italian;36.02;0.1;28
+618;Bread - Wheat Baguette;65.09;0.1;50
+619;Oil - Grapeseed Oil;59.36;0.1;22
+620;Gingerale - Diet - Schweppes;88.11;0.1;7
+621;Cookies - Englishbay Chochip;85.49;0.1;20
+622;Pasta - Bauletti. Chicken White;89.99;0.1;50
+623;Mushroom - Chanterelle. Dry;67.42;0.1;36
+624;Wine - Cabernet Sauvignon;57.65;0.1;6
+625;Soup - Canadian Pea. Dry Mix;79.92;0.1;49
+626;Shrimp - Tiger 21/25;54.61;0.1;21
+627;Myers Planters Punch;68.17;0.1;35
+628;Pepper - Pablano;18.4;0.1;45
+629;Trueblue - Blueberry;14.61;0.1;35
+630;Sansho Powder;88.0;0.1;6
+631;Shrimp - 16 - 20 Cooked. Peeled;43.44;0.1;26
+632;Lotus Leaves;32.8;0.1;7
+633;Veal - Round. Eye Of;40.86;0.1;21
+634;Sherbet - Raspberry;93.99;0.1;25
+635;Beef - Ground Lean Fresh;4.98;0.1;4
+636;Wiberg Super Cure;31.97;0.1;0
+637;Bread - Triangle White;82.4;0.1;46
+638;Pork - Bones;70.62;0.1;35
+639;Beans - French;67.09;0.1;16
+640;Chocolate - Unsweetened;71.06;0.1;35
+641;Schnappes Peppermint - Walker;93.64;0.1;5
+642;Lamb - Whole Head Off;77.98;0.1;10
+643;Puree - Passion Fruit;48.03;0.1;33
+644;Beef - Ground. Extra Lean. Fresh;82.82;0.1;48
+645;Pork - Smoked Kassler;42.32;0.1;20
+646;Oysters - Smoked;76.98;0.1;30
+647;Beer - Labatt Blue;16.23;0.1;8
+648;Wine - Masi Valpolocell;81.88;0.1;33
+649;Gelatine Leaves - Envelopes;50.06;0.1;1
+650;Heavy Duty Dust Pan;37.42;0.1;5
+651;Fudge - Cream Fudge;10.02;0.1;11
+652;Trout - Rainbow. Frozen;9.68;0.1;16
+653;Pepper - Cayenne;22.24;0.1;35
+654;Wine - Red. Metus Rose;55.64;0.1;15
+655;Beer - Tetleys;53.96;0.1;7
+656;Sauce - Demi Glace;13.31;0.1;32
+657;Wine - Red. Cabernet Merlot;1.44;0.1;44
+658;Salt - Kosher;10.86;0.1;26
+659;Foil - Round Foil;70.33;0.1;7
+660;Cheese - Oka;33.41;0.1;0
+661;Bread Cranberry Foccacia;91.63;0.1;14
+662;Liners - Banana. Paper;89.89;0.1;31
+663;Cheese - Parmigiano Reggiano;70.11;0.1;43
+664;Apple - Granny Smith;44.63;0.1;14
+665;Oil - Avocado;67.0;0.1;27
+666;Chinese Foods - Pepper Beef;75.31;0.1;12
+667;Tarragon - Fresh;2.35;0.1;22
+668;Soda Water - Club Soda. 355 Ml;98.55;0.1;48
+669;Mustard Prepared;68.93;0.1;26
+670;Wine - Montecillo Rioja Crianza;30.04;0.1;12
+671;Cup - 8oz Coffee Perforated;34.14;0.1;47
+672;Flour - Strong;13.12;0.1;5
+673;Pur Source;84.44;0.1;26
+674;Irish Cream - Baileys;61.09;0.1;35
+675;Cassis;87.71;0.1;26
+676;V8 Pet;46.13;0.1;50
+677;Wine - Cava Aria Estate Brut;8.6;0.1;40
+678;Cookies - Assorted;13.46;0.1;39
+679;Steampan - Foil;73.53;0.1;28
+680;Rum - Dark. Bacardi. Black;56.66;0.1;14
+681;Island Oasis - Peach Daiquiri;37.91;0.1;11
+682;Cookie Dough - Peanut Butter;47.58;0.1;29
+683;Kellogs Raisan Bran Bars;17.17;0.1;40
+684;Pancetta;67.41;0.1;1
+685;Calaloo;83.8;0.1;36
+686;Pepper - Black. Crushed;22.78;0.1;23
+687;Island Oasis - Banana Daiquiri;60.47;0.1;50
+688;Wine - Magnotta. Merlot Sr Vqa;41.65;0.1;3
+689;Basil - Fresh;93.64;0.1;41
+690;Pork - Shoulder;96.81;0.1;9
+691;Pork - Inside;52.3;0.1;40
+692;Grapes - Green;73.54;0.1;32
+693;Tamarillo;59.28;0.1;41
+694;Tomato - Tricolor Cherry;96.61;0.1;31
+695;Cake - Cheese Cake 9 Inch;85.57;0.1;47
+696;Wine - Spumante Bambino White;3.13;0.1;9
+697;Bread - Multigrain Oval;41.32;0.1;6
+698;Mousse - Banana Chocolate;42.09;0.1;44
+699;Chocolate - Dark Callets;8.47;0.1;2
+700;Stainless Steel Cleaner Vision;79.63;0.1;38
+701;Snapple - Iced Tea Peach;76.95;0.1;15
+702;Pepper - Black. Ground;47.18;0.1;2
+703;Port - 74 Brights;85.22;0.1;13
+704;Wine - White. Antinore Orvieto;15.28;0.1;5
+705;Sugar - Brown. Individual;11.95;0.1;13
+706;Wine - Cave Springs Dry Riesling;38.55;0.1;21
+707;Pepper - Black. Whole;66.3;0.1;33
+708;Wine - Ruffino Chianti Classico;10.47;0.1;26
+709;Milk Powder;81.39;0.1;33
+710;Carbonated Water - Cherry;82.03;0.1;37
+711;Tia Maria;10.39;0.1;26
+712;Juice - Ocean Spray Kiwi;65.73;0.1;24
+713;Nut - Hazelnut. Whole;93.1;0.1;24
+714;Tortillas - Flour. 8;10.87;0.1;16
+715;Beer - Blue;57.43;0.1;27
+716;Spinach - Baby;85.68;0.1;7
+717;Gin - Gilbeys London. Dry;68.61;0.1;35
+718;Wine - Rosso Del Veronese Igt;92.88;0.1;21
+719;Southern Comfort;70.52;0.1;15
+720;Lobster - Cooked;2.35;0.1;47
+721;Prunes - Pitted;39.8;0.1;28
+722;Nougat - Paste / Cream;62.48;0.1;36
+723;Thyme - Dried;20.23;0.1;49
+724;Pepper - Red Chili;72.81;0.1;3
+725;Bread - Burger;50.18;0.1;32
+726;Food Colouring - Green;82.47;0.1;7
+727;Hand Towel;46.4;0.1;21
+728;Ecolab - Solid Fusion;7.8;0.1;41
+729;Veal Inside - Provimi;76.45;0.1;36
+730;Sauce - Soya. Light;93.51;0.1;47
+731;Currants;87.63;0.1;50
+732;Bread - Olive Dinner Roll;24.68;0.1;29
+733;Soup - Chicken And Wild Rice;52.45;0.1;28
+734;Salmon Steak - Cohoe 8 Oz;72.68;0.1;9
+735;Doilies - 12. Paper;80.78;0.1;32
+736;Cheese Cloth No 100;40.92;0.1;31
+737;Mushrooms - Honey;42.76;0.1;12
+738;Salmon - Atlantic. Skin On;7.21;0.1;11
+739;Tuna - Yellowfin;88.21;0.1;23
+740;Ice Cream - Fudge Bars;48.45;0.1;22
+741;Chocolate - Milk Coating;12.46;0.1;24
+742;Chocolate - Semi Sweet. Calets;1.37;0.1;7
+743;Guava;59.47;0.1;40
+744;Oranges - Navel. 72;24.59;0.1;24
+745;Pickerel - Fillets;79.19;0.1;26
+746;Wine - Hardys Bankside Shiraz;39.46;0.1;27
+747;Beer - Mill St Organic;52.19;0.1;6
+748;Melon - Cantaloupe;4.14;0.1;49
+749;Muffin - Zero Transfat;34.45;0.1;6
+750;Napkin White - Starched;14.83;0.1;4
+751;Bread - Malt;50.76;0.1;3
+752;Wine - Casablanca Valley;46.54;0.1;12
+753;Soup - Campbells. Chix Gumbo;75.31;0.1;14
+754;Lemonade - Natural. 591 Ml;7.03;0.1;43
+755;Squid - Tubes / Tenticles 10/20;49.4;0.1;13
+756;Beef - Shank;12.43;0.1;46
+757;Onion Powder;75.98;0.1;33
+758;Mint - Fresh;47.9;0.1;10
+759;Cookies Cereal Nut;70.6;0.1;6
+760;Nut - Almond. Blanched. Whole;11.64;0.1;46
+761;Juice - Ocean Spray Cranberry;36.34;0.1;18
+762;Dc - Sakura Fu;26.08;0.1;44
+763;Pastry - Lemon Danish - Mini;52.31;0.1;18
+764;Bacardi Raspberry;88.26;0.1;17
+765;Soup - Knorr. Chicken Gumbo;3.64;0.1;20
+766;Beer - Rickards Red;4.22;0.1;27
+767;Wine - Black Tower Qr;20.84;0.1;47
+768;Bread - French Baquette;54.24;0.1;13
+769;Chocolate - Mi - Amere Semi;29.84;0.1;24
+770;Thyme - Lemon. Fresh;21.15;0.1;25
+771;Beer - Steamwhistle;53.06;0.1;13
+772;Wine - Magnotta - Belpaese;94.67;0.1;12
+773;Red Snapper - Fillet. Skin On;9.57;0.1;23
+774;Syrup - Monin - Blue Curacao;74.15;0.1;18
+775;Bag - Clear 7 Lb;77.08;0.1;5
+776;Pears - Fiorelle;71.95;0.1;19
+777;Lamb Tenderloin Nz Fr;41.8;0.1;9
+778;Squash - Acorn;46.05;0.1;26
+779;Duck - Whole;30.21;0.1;27
+780;Bread - Flat Bread;38.41;0.1;3
+781;Veal - Kidney;31.5;0.1;48
+782;Beef - Cooked. Corned;78.56;0.1;11
+783;Cheese - Cheddar With Claret;66.59;0.1;40
+784;Wine - Red Oakridge Merlot;46.9;0.1;33
+785;Beef - Rib Roast. Capless;98.12;0.1;4
+786;Bagel - Whole White Sesame;90.7;0.1;5
+787;Sauce - Balsamic Viniagrette;36.54;0.1;23
+788;Isomalt;22.29;0.1;31
+789;Wine - Red. Black Opal Shiraz;82.61;0.1;30
+790;Wine - Chardonnay South;47.68;0.1;41
+791;Pasta - Penne. Rigate. Dry;30.29;0.1;50
+792;Chevril;83.24;0.1;6
+793;Nut - Pine Nuts. Whole;90.89;0.1;8
+794;Soup - Campbells - Tomato;68.83;0.1;0
+795;Bread - Sticks. Thin. Plain;45.07;0.1;1
+796;Bagel - Ched Chs Presliced;72.78;0.1;19
+797;Cheese - Havarti. Salsa;31.53;0.1;20
+798;Soupfoamcont12oz 112con;92.67;0.1;40
+799;Venison - Ground;45.0;0.1;29
+800;Lettuce - Boston Bib;27.94;0.1;8
+801;Phyllo Dough;63.43;0.1;29
+802;Pepsi. 355 Ml;58.98;0.1;41
+803;Flour - Bread;34.94;0.1;3
+804;Artichoke - Fresh;8.64;0.1;7
+805;Tea - Camomele;69.72;0.1;5
+806;Wine - Rosso Del Veronese Igt;86.63;0.1;14
+807;Jagermeister;65.52;0.1;18
+808;Pastry - Apple Muffins - Mini;97.61;0.1;46
+809;Chocolate - Pistoles. White;96.53;0.1;39
+810;Muffin Batt - Blueberry Passion;5.13;0.1;29
+811;Pepper - Jalapeno;34.52;0.1;10
+812;Juice - Lime;9.68;0.1;2
+813;Long Island Ice Tea;24.47;0.1;36
+814;Chestnuts - Whole.canned;50.61;0.1;1
+815;Bread - White Mini Epi;37.57;0.1;21
+816;Devonshire Cream;48.69;0.1;3
+817;Bread - 10 Grain Parisian;72.36;0.1;3
+818;Sour Puss - Tangerine;48.56;0.1;18
+819;Munchies Honey Sweet Trail Mix;66.8;0.1;41
+820;Bread - Pita;32.28;0.1;41
+821;Bread - Olive;65.82;0.1;1
+822;Bag - Regular Kraft 20 Lb;94.56;0.1;6
+823;Wine - White. Concha Y Toro;88.0;0.1;5
+824;Wine - Sawmill Creek Autumn;13.97;0.1;12
+825;Vermouth - Sweet. Cinzano;74.85;0.1;13
+826;Blueberries;39.32;0.1;18
+827;Croissants Thaw And Serve;51.59;0.1;26
+828;Vinegar - Raspberry;6.82;0.1;20
+829;Wine - Peller Estates Late;78.38;0.1;33
+830;Beer - Steamwhistle;60.71;0.1;18
+831;Calypso - Lemonade;43.22;0.1;23
+832;Chinese Foods - Chicken Wing;76.68;0.1;43
+833;Bay Leaf;34.91;0.1;37
+834;Tuna - Yellowfin;44.79;0.1;40
+835;Buttons;41.26;0.1;24
+836;Glass Clear 7 Oz Xl;92.86;0.1;34
+837;Pepsi. 355 Ml;73.12;0.1;18
+838;Beef - Ground Lean Fresh;16.79;0.1;13
+839;Muffin Mix - Chocolate Chip;44.89;0.1;12
+840;Mahi Mahi;76.22;0.1;46
+841;Soup - Campbells. Spinach Crm;39.64;0.1;12
+842;Ham - Black Forest;16.01;0.1;12
+843;Vinegar - Champagne;97.91;0.1;46
+844;Muffin Mix - Morning Glory;93.88;0.1;17
+845;Peppercorns - Pink;93.55;0.1;30
+846;Tomatoes - Vine Ripe. Yellow;24.07;0.1;21
+847;Chicken - Soup Base;45.6;0.1;40
+848;Cheese - Cheddarsliced;39.71;0.1;18
+849;Energy Drink - Franks Pineapple;98.85;0.1;1
+850;Pastrami;22.72;0.1;17
+851;Cookie Dough - Peanut Butter;65.96;0.1;0
+852;Lettuce - Iceberg;93.29;0.1;34
+853;Cattail Hearts;53.14;0.1;6
+854;Soap - Mr.clean Floor Soap;29.66;0.1;42
+855;Sauce - Alfredo;64.81;0.1;44
+856;Lime Cordial - Roses;59.63;0.1;14
+857;Soup - Tomato Mush. Florentine;46.98;0.1;9
+858;Bagel - Everything Presliced;60.9;0.1;26
+859;Wine - Magnotta - Pinot Gris Sr;91.25;0.1;26
+860;Containter - 3oz Microwave Rect.;55.83;0.1;39
+861;Plastic Arrow Stir Stick;88.41;0.1;37
+862;Cloves - Whole;95.49;0.1;9
+863;Flounder - Fresh;30.24;0.1;31
+864;Lotus Root;92.11;0.1;21
+865;Eggplant - Regular;66.67;0.1;29
+866;Capon - Breast. Double. Wing On;60.15;0.1;36
+867;Tomatoes - Orange;20.94;0.1;29
+868;Capers - Pickled;15.99;0.1;10
+869;Glucose;40.06;0.1;27
+870;Ecolab - Balanced Fusion;77.89;0.1;46
+871;Rosemary - Primerba. Paste;24.29;0.1;44
+872;Coffee Decaf Colombian;15.4;0.1;9
+873;Wine - Two Oceans Cabernet;42.74;0.1;50
+874;Tart - Raisin And Pecan;50.83;0.1;16
+875;Ham Black Forest;56.95;0.1;14
+876;Table Cloth 90x90 Colour;65.7;0.1;34
+877;Yams;15.27;0.1;15
+878;Wine - White. Antinore Orvieto;11.52;0.1;8
+879;Madeira;40.46;0.1;35
+880;Shiratamako - Rice Flour;30.75;0.1;31
+881;Chocolate - Pistoles. White;83.06;0.1;36
+882;Calypso - Strawberry Lemonade;48.67;0.1;34
+883;Nut - Almond. Blanched. Ground;72.58;0.1;42
+884;Veal - Leg. Provimi - 50 Lb Max;68.19;0.1;34
+885;Beans - Fava Fresh;31.0;0.1;31
+886;Star Anise. Whole;66.05;0.1;1
+887;Mousse - Passion Fruit;10.14;0.1;14
+888;Wine - Chablis 2003 Champs;28.94;0.1;45
+889;Sugar - Splenda Sweetener;44.97;0.1;32
+890;Lettuce - Arugula;46.77;0.1;28
+891;Parsley Italian - Fresh;11.91;0.1;9
+892;Sea Urchin;96.8;0.1;18
+893;Muffin Mix - Chocolate Chip;32.35;0.1;17
+894;Food Colouring - Green;90.36;0.1;44
+895;Pears - Fiorelle;16.73;0.1;47
+896;Soap - Pine Sol Floor Cleaner;68.21;0.1;4
+897;Basil - Pesto Sauce;1.42;0.1;30
+898;Juice - Orange. 341 Ml;30.41;0.1;12
+899;Potatoes - Instant. Mashed;8.94;0.1;2
+900;Venison - Denver Leg Boneless;71.17;0.1;10
+901;Pepsi - Diet. 355 Ml;90.73;0.1;32
+902;Pail For Lid 1537;38.48;0.1;16
+903;Chickhen - Chicken Phyllo;95.25;0.1;45
+904;Oil - Sunflower;10.28;0.1;46
+905;Lumpfish Black;68.46;0.1;38
+906;Beer - Guiness;91.27;0.1;21
+907;Mcguinness - Blue Curacao;93.3;0.1;10
+908;Bols Melon Liqueur;18.1;0.1;16
+909;Pie Pecan;62.34;0.1;27
+910;Wine - Red. Mosaic Zweigelt;35.41;0.1;32
+911;Pail - 15l White. With Handle;5.49;0.1;42
+912;Dooleys Toffee;28.76;0.1;39
+913;Oil - Truffle. Black;55.92;0.1;28
+914;Oil - Truffle. Black;28.56;0.1;33
+915;Pork - Loin. Bone - In;35.05;0.1;6
+916;Towel Multifold;95.24;0.1;30
+917;V8 Splash Strawberry Banana;55.11;0.1;26
+918;Wine - Piper Heidsieck Brut;3.16;0.1;3
+919;Tray - 16in Rnd Blk;9.15;0.1;17
+920;Steam Pan Full Lid;85.3;0.1;46
+921;Langers - Cranberry Cocktail;81.12;0.1;37
+922;Bread - Kimel Stick Poly;93.55;0.1;29
+923;Blue Curacao - Marie Brizard;17.5;0.1;33
+924;Celery Root;76.25;0.1;23
+925;Veal - Knuckle;55.41;0.1;22
+926;Beets - Golden;85.54;0.1;15
+927;Wine - Chardonnay South;49.3;0.1;45
+928;Pasta - Canelloni;56.9;0.1;22
+929;Truffle Cups - Brown;23.23;0.1;12
+930;Calypso - Pineapple Passion;29.7;0.1;37
+931;Extract - Lemon;10.48;0.1;34
+932;Lamb - Whole Head Off;57.2;0.1;4
+933;Fish - Soup Base. Bouillon;35.93;0.1;36
+934;Roe - White Fish;36.34;0.1;25
+935;Instant Coffee;96.48;0.1;3
+936;Lentils - Green. Dry;57.93;0.1;4
+937;Ecolab - Solid Fusion;59.49;0.1;1
+938;Soup Campbells Split Pea And Ham;82.23;0.1;7
+939;Wine - Kwv Chenin Blanc South;57.02;0.1;37
+940;V8 Splash Strawberry Kiwi;32.19;0.1;38
+941;Wine - Mondavi Coastal Private;69.25;0.1;45
+942;Vinegar - White Wine;32.84;0.1;5
+943;Longos - Burritos;86.02;0.1;29
+944;Muffin Mix - Chocolate Chip;1.85;0.1;41
+945;Juice - Apple. 1.36l;75.89;0.1;7
+946;Butcher Twine 4r;49.12;0.1;33
+947;Cookie Dough - Oatmeal Rasin;7.08;0.1;43
+948;Pears - Bartlett;46.0;0.1;5
+949;Anchovy Fillets;81.54;0.1;21
+950;Apples - Sliced / Wedge;46.95;0.1;13
+951;Vector Energy Bar;76.06;0.1;48
+952;Bread - White. Sliced;85.95;0.1;35
+953;Flour - Cake;18.13;0.1;20
+954;Butter - Pod;89.67;0.1;34
+955;Pear - Halves;54.26;0.1;23
+956;Appetizer - Assorted Box;16.36;0.1;6
+957;Pineapple - Golden;78.63;0.1;17
+958;Zucchini - Yellow;7.99;0.1;38
+959;Bread Fig And Almond;50.94;0.1;38
+960;Cheese - Ricotta;28.59;0.1;5
+961;Eggplant Italian;92.21;0.1;50
+962;Veal - Slab Bacon;15.38;0.1;4
+963;Island Oasis - Banana Daiquiri;2.35;0.1;8
+964;Chocolate Bar - Coffee Crisp;18.36;0.1;30
+965;Noodles - Steamed Chow Mein;94.35;0.1;6
+966;Allspice - Jamaican;6.29;0.1;9
+967;Chips Potato Salt Vinegar 43g;66.63;0.1;50
+968;Muffin Batt - Blueberry Passion;3.06;0.1;13
+969;Flavouring Vanilla Artificial;22.65;0.1;2
+970;Squid - Breaded;34.69;0.1;19
+971;Flour - All Purpose;21.18;0.1;0
+972;Salmon - Smoked. Sliced;57.81;0.1;23
+973;Veal - Heart;74.03;0.1;14
+974;Wine - Vineland Estate Semi - Dry;12.2;0.1;44
+975;Lamb - Loin. Trimmed. Boneless;7.67;0.1;50
+976;Sansho Powder;13.99;0.1;0
+977;Venison - Racks Frenched;17.33;0.1;34
+978;Bread Bowl Plain;77.19;0.1;16
+979;Shrimp. Dried. Small / Lb;32.25;0.1;10
+980;Tia Maria;95.41;0.1;44
+981;Chocolate Bar - Oh Henry;8.66;0.1;7
+982;Pork - Liver;62.47;0.1;2
+983;Onions - Cooking;52.0;0.1;32
+984;Compound - Pear;91.39;0.1;17
+985;Bread - Pita. Mini;25.86;0.1;6
+986;Cheese - Swiss;41.5;0.1;10
+987;Cheese - Swiss;90.73;0.1;13
+988;Lime Cordial - Roses;52.35;0.1;19
+989;Food Colouring - Orange;45.15;0.1;10
+990;Nantucket - Orange Mango Cktl;32.33;0.1;40
+991;Beef - Short Loin;79.38;0.1;13
+992;Curry Powder;16.3;0.1;45
+993;Yams;87.64;0.1;50
+994;Calaloo;44.85;0.1;13
+995;Flour - Whole Wheat;19.31;0.1;23
+996;Dc - Frozen Momji;89.38;0.1;48
+997;Basil - Seedlings Cookstown;36.59;0.1;43
+998;Doilies - 7. Paper;67.97;0.1;3
+999;Mangostein;79.49;0.1;11
+1000;Extract - Vanilla.artificial;91.42;0.1;17

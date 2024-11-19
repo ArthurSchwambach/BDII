@@ -1,0 +1,12 @@
+Prints de Terminal com nome : OK
+
+Modelagem Conceitual e Projeto Lógico (Esquema): 2/2pts (com diagrama)
+Povoamento do Banco: 2/2pts
+Consultas: 2/2pts (consultas complexas com retornos) 
+Otimização: 1/2pts (observação do ganho em tempo com prints e custo com o plano)
+Gatilho: 2/2pts (observar uso do trigger) 
+
+
+Bonus
+Mock (API): 1/1pt
+Procedimentos para povoamento com laços: 1/1pt

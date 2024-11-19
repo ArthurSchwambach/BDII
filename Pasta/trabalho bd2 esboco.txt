@@ -1,0 +1,507 @@
+-- DIOGO FRANCIS BELSHOFF
+-- GUSTAVO SUTER GONÇALVES
+-- LUCAS DAMASCENO BERNARDES
+
+-- Criar o banco de dados
+CREATE DATABASE ComercioDB;
+
+-- Selecionar o banco de dados criado
+USE ComercioDB;
+
+-- Tabela Cliente
+CREATE TABLE Cliente (
+    cliente_id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    endereco VARCHAR(255) NOT NULL,
+    telefone VARCHAR(20),
+    email VARCHAR(100) NOT NULL,
+    data_registro DATE NOT NULL
+);
+
+-- Tabela Vendedor
+CREATE TABLE Vendedor (
+    vendedor_id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    telefone VARCHAR(20),
+    email VARCHAR(100) NOT NULL,
+    data_contratacao DATE NOT NULL
+);
+
+-- Tabela Produto
+CREATE TABLE Produto (
+    produto_id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    preco_compra DECIMAL(10, 2) NOT NULL,
+    preco_venda DECIMAL(10, 2) NOT NULL,
+    estoque INT NOT NULL DEFAULT 0
+);
+
+-- Tabela FormaPagamento
+CREATE TABLE FormaPagamento (
+    pagamento_id INT AUTO_INCREMENT PRIMARY KEY,
+    tipo_pagamento VARCHAR(50) NOT NULL
+);
+
+-- Tabela Pedido
+CREATE TABLE Pedido (
+    pedido_id INT AUTO_INCREMENT PRIMARY KEY,
+    cliente_id INT NOT NULL,
+    vendedor_id INT NOT NULL,
+    pagamento_id INT NOT NULL,
+    data_pedido DATE NOT NULL,
+    total DECIMAL(10, 2) NOT NULL,
+    FOREIGN KEY (cliente_id) REFERENCES Cliente(cliente_id),
+    FOREIGN KEY (vendedor_id) REFERENCES Vendedor(vendedor_id),
+    FOREIGN KEY (pagamento_id) REFERENCES FormaPagamento(pagamento_id)
+);
+
+-- Tabela ItensPedido
+CREATE TABLE ItensPedido (
+    item_id INT AUTO_INCREMENT PRIMARY KEY,
+    pedido_id INT NOT NULL,
+    produto_id INT NOT NULL,
+    quantidade INT NOT NULL,
+    preco_unitario DECIMAL(10, 2) NOT NULL,
+    FOREIGN KEY (pedido_id) REFERENCES Pedido(pedido_id),
+    FOREIGN KEY (produto_id) REFERENCES Produto(produto_id)
+);
+
+-- Tabela Compras
+CREATE TABLE Compras (
+    compra_id INT AUTO_INCREMENT PRIMARY KEY,
+    produto_id INT NOT NULL,
+    quantidade INT NOT NULL,
+    data_compra DATE NOT NULL,
+    preco_compra DECIMAL(10, 2) NOT NULL,
+    FOREIGN KEY (produto_id) REFERENCES Produto(produto_id)
+);
+
+-- Inserir dados na tabela FormaPagamento
+INSERT INTO FormaPagamento (tipo_pagamento) 
+VALUES 
+('Cartão de Crédito'),
+('Cartão de Débito'),
+('Dinheiro'),
+('Boleto'),
+('PIX');
+
+
+
+-- Consultas
+
+-- Qual o melhor vendedor
+SELECT 
+    v.vendedor_id,
+    v.nome,
+    SUM(p.total) AS valor_total_vendas
+FROM 
+    Pedido p
+JOIN 
+    Vendedor v ON p.vendedor_id = v.vendedor_id
+GROUP BY 
+    v.vendedor_id, v.nome
+ORDER BY 
+    valor_total_vendas DESC
+LIMIT 1;
+
+-- Quais os produtos mais vendidos
+SELECT 
+    pr.produto_id,
+    pr.nome,
+    SUM(ip.quantidade) AS quantidade_total_vendida
+FROM 
+    ItensPedido ip
+JOIN 
+    Produto pr ON ip.produto_id = pr.produto_id
+GROUP BY 
+    pr.produto_id, pr.nome
+ORDER BY 
+    quantidade_total_vendida DESC;
+    
+-- Qual o cliente que mais comprou
+SELECT 
+    c.cliente_id,
+    c.nome,
+    SUM(p.total) AS valor_total_compras
+FROM 
+    Pedido p
+JOIN 
+    Cliente c ON p.cliente_id = c.cliente_id
+GROUP BY 
+    c.cliente_id, c.nome
+ORDER BY 
+    valor_total_compras DESC
+LIMIT 1;
+
+-- Estoque atual de cada produto
+SELECT 
+    produto_id,
+    nome,
+    estoque
+FROM 
+    Produto
+ORDER BY 
+    nome;
+
+-- Quais os pedidos feitos no ultimo mes
+SELECT 
+    p.pedido_id,
+    c.nome AS cliente_nome,
+    v.nome AS vendedor_nome,
+    p.data_pedido,
+    p.total
+FROM 
+    Pedido p
+JOIN 
+    Cliente c ON p.cliente_id = c.cliente_id
+JOIN 
+    Vendedor v ON p.vendedor_id = v.vendedor_id
+WHERE 
+    p.data_pedido BETWEEN DATE_SUB(CURDATE(), INTERVAL 1 MONTH) AND CURDATE()
+ORDER BY 
+    p.data_pedido DESC;
+
+-- Qual o lucro obtido em um periodo especifico
+SELECT 
+    SUM(ip.quantidade * (ip.preco_unitario - p.preco_compra)) AS lucro_total
+FROM 
+    ItensPedido ip
+JOIN 
+    Produto p ON ip.produto_id = p.produto_id
+JOIN 
+    Pedido ped ON ip.pedido_id = ped.pedido_id
+WHERE 
+    ped.data_pedido BETWEEN '2023-01-01' AND '2023-12-31';
+
+-- Media de vendas diaria em um periodo especificio
+SELECT 
+    DATE(p.data_pedido) AS data_venda,
+    SUM(p.total) AS total_vendas_diarias
+FROM 
+    Pedido p
+WHERE 
+    p.data_pedido BETWEEN '2023-01-01' AND '2023-12-31'
+GROUP BY 
+    DATE(p.data_pedido)
+ORDER BY 
+    DATE(p.data_pedido);
+
+
+
+-- Otimizações
+
+-- Verificar se os indices estão funcionando
+
+
+
+-- Consulta 2
+
+-- Criar um índice na coluna produto_id da tabela ItensPedido
+CREATE INDEX idx_produto_id ON ItensPedido (produto_id);
+
+-- Criar um índice na coluna quantidade da tabela ItensPedido
+CREATE INDEX idx_quantidade ON ItensPedido (quantidade);
+
+-- Mostrar os indices criados
+SHOW INDEX FROM ItensPedido;
+
+-- Consulta 2 otimizada
+SELECT 
+    pr.produto_id,
+    pr.nome,
+    SUM(ip.quantidade) AS quantidade_total_vendida
+FROM 
+    ItensPedido ip
+JOIN 
+    Produto pr ON ip.produto_id = pr.produto_id
+GROUP BY 
+    pr.produto_id, pr.nome
+ORDER BY 
+    quantidade_total_vendida DESC;
+    
+    
+    -- Consulta 7
+
+-- Criar um índice na coluna data_pedido da tabela Pedido
+CREATE INDEX idx_data_pedido ON Pedido (data_pedido);
+
+-- Mostrar os índice criado
+SHOW INDEX FROM Pedido;
+
+-- Consulta 7 otimizada
+SELECT 
+    DATE(p.data_pedido) AS data_venda,
+    SUM(p.total) AS total_vendas_diarias
+FROM 
+    Pedido p
+WHERE 
+    p.data_pedido BETWEEN '2023-01-01' AND '2023-12-31'
+GROUP BY 
+    DATE(p.data_pedido)
+ORDER BY 
+    DATE(p.data_pedido);
+
+
+
+-- Estruturas avançadas
+
+-- Trigger para atualizar o estoque após uma compra
+DELIMITER $$
+
+CREATE TRIGGER AtualizaEstoqueCompra
+AFTER INSERT ON Compras
+FOR EACH ROW
+BEGIN
+    UPDATE Produto
+    SET estoque = estoque + NEW.quantidade,
+        preco_compra = NEW.preco_compra
+    WHERE produto_id = NEW.produto_id;
+END $$
+
+DELIMITER ;
+
+-- Consulta para verificar o estoque atual do produto antes da compra
+SELECT * FROM Produto WHERE produto_id = 1;
+
+-- Disparo da trigger
+-- Inserir uma compra na tabela Compras
+INSERT INTO Compras (produto_id, quantidade, data_compra, preco_compra)
+VALUES (1, 50, '2024-06-01', 5.00);
+
+-- Checagem
+-- Consulta para verificar o estoque atual do produto após a compra
+SELECT * FROM Produto WHERE produto_id = 1;
+
+
+-- Trigger para atualizar o estoque após um pedido
+DELIMITER $$
+
+CREATE TRIGGER AtualizaEstoquePedido
+AFTER INSERT ON ItensPedido
+FOR EACH ROW
+BEGIN
+    UPDATE Produto
+    SET estoque = estoque - NEW.quantidade
+    WHERE produto_id = NEW.produto_id;
+END $$ 
+
+DELIMITER ;
+
+-- Consulta para verificar o estoque atual do produto antes do pedido
+SELECT * FROM Produto WHERE produto_id = 2;
+
+-- Disparo da trigger
+-- Inserir um item de pedido na tabela ItensPedido
+INSERT INTO ItensPedido (pedido_id, produto_id, quantidade, preco_unitario)
+VALUES (1, 2, 10, 12.50);
+
+-- Checagem
+-- Consulta para verificar o estoque atual do produto após o pedido
+SELECT * FROM Produto WHERE produto_id = 2;
+
+
+
+-- Procedimentos
+
+-- Popular pedidos
+DELIMITER $$
+
+CREATE PROCEDURE PopularPedidos()
+BEGIN
+    DECLARE cliente_id_val INT;
+    DECLARE vendedor_id_val INT;
+    DECLARE produto_id_val INT;
+    DECLARE pedido_id_val INT;
+    DECLARE quantidade_val INT;
+    DECLARE preco_unitario_val DECIMAL(10, 2);
+    DECLARE contador INT DEFAULT 0;
+
+    -- Cursor para percorrer os produtos
+    DECLARE cur_produto CURSOR FOR 
+        SELECT produto_id FROM Produto;
+
+    -- Abrir o cursor
+    OPEN cur_produto;
+
+    -- Loop para criar pedidos
+    pedido_loop: LOOP
+        IF contador >= 10 THEN
+            LEAVE pedido_loop;
+        END IF;
+
+        -- Selecionar um cliente aleatório
+        SET cliente_id_val = (SELECT cliente_id FROM Cliente ORDER BY RAND() LIMIT 1);
+
+        -- Selecionar um vendedor aleatório
+        SET vendedor_id_val = (SELECT vendedor_id FROM Vendedor ORDER BY RAND() LIMIT 1);
+
+        -- Selecionar um produto aleatório
+        SET produto_id_val = (SELECT produto_id FROM Produto ORDER BY RAND() LIMIT 1);
+
+        -- Inserir o pedido na tabela Pedido
+        INSERT INTO Pedido (cliente_id, vendedor_id, pagamento_id, data_pedido, total) 
+        VALUES (cliente_id_val, vendedor_id_val, 1, CURRENT_DATE(), 0);
+
+        -- Obter o ID do pedido inserido
+        SET pedido_id_val = LAST_INSERT_ID();
+
+        -- Inserir os itens do pedido na tabela ItensPedido
+        INSERT INTO ItensPedido (pedido_id, produto_id, quantidade, preco_unitario) 
+        VALUES (pedido_id_val, produto_id_val, 3, (SELECT preco_venda FROM Produto WHERE produto_id = produto_id_val));
+
+        SET contador = contador + 1;
+
+    END LOOP pedido_loop;
+
+    -- Fechar o cursor
+    CLOSE cur_produto;
+
+END $$
+
+DELIMITER ;
+
+
+-- Criando um procedimento de classificacao de curva abc
+
+DELIMITER $$
+
+CREATE PROCEDURE ClassificarProdutosABC()
+BEGIN
+    -- Criar tabela temporária para armazenar a classificação ABC
+    DROP TEMPORARY TABLE IF EXISTS ProdutosABC;
+    CREATE TEMPORARY TABLE ProdutosABC (
+        produto_id INT,
+        classificacao CHAR(1)
+    );
+
+    -- Calcular as vendas acumuladas e classificar os produtos
+    INSERT INTO ProdutosABC (produto_id, classificacao)
+    SELECT 
+        produto_id,
+        CASE 
+            WHEN percentual_acumulado <= 70 THEN 'A'
+            WHEN percentual_acumulado <= 90 THEN 'B'
+            ELSE 'C'
+        END AS classificacao
+    FROM (
+        SELECT 
+            produto_id,
+            SUM(quantidade * preco_unitario) AS vendas_produto,
+            SUM(SUM(quantidade * preco_unitario)) OVER (ORDER BY SUM(quantidade * preco_unitario) DESC) / SUM(quantidade * preco_unitario) OVER () * 100 AS percentual_acumulado
+        FROM 
+            ItensPedido
+        GROUP BY 
+            produto_id
+    ) AS vendas_produto_info;
+
+    -- Selecionar e exibir os resultados
+    SELECT p.produto_id, p.nome, pa.classificacao
+    FROM Produto p
+    JOIN ProdutosABC pa ON p.produto_id = pa.produto_id;
+
+END $$
+
+DELIMITER 
+
+-- Chamando o procedimento
+CALL ClassificarProdutosABC();
+
+
+-- Atualizar preço de venda
+DELIMITER $$
+
+CREATE PROCEDURE AtualizarPrecoVenda(
+    IN produto_id INT,
+    IN aumento_percentual DECIMAL(5, 2)
+)
+BEGIN
+    -- Calcular o novo preço de venda com base no aumento percentual
+    DECLARE novo_preco_venda DECIMAL(10, 2);
+    SELECT preco_venda * (1 + aumento_percentual / 100) INTO novo_preco_venda FROM Produto WHERE produto_id = produto_id;
+
+    -- Atualizar o preço de venda na tabela Produto
+    UPDATE Produto SET preco_venda = novo_preco_venda WHERE produto_id = produto_id;
+    
+    -- Selecionar e exibir o novo preço de venda
+    SELECT novo_preco_venda AS 'Novo Preço de Venda';
+END $$
+
+DELIMITER ;
+
+-- Chamando o procedimento
+CALL AtualizarPrecoVenda(1, 10
+
+-- Atualizar o preço de venda de todos os produtos da tabela
+DELIMITER $$
+
+CREATE PROCEDURE AtualizarPrecoVendaTodos(
+    IN aumento_percentual DECIMAL(5, 2)
+)
+BEGIN
+    -- Atualizar o preço de venda de todos os produtos na tabela Produto
+    UPDATE Produto 
+    SET preco_venda = preco_venda * (1 + aumento_percentual / 100);
+
+    -- Selecionar e exibir os produtos atualizados
+    SELECT produto_id, nome, preco_venda FROM Produto;
+    
+END $$
+
+DELIMITER ;
+
+-- Chamando o procedimento
+CALL AtualizarPrecoVendaTodos(10);
+
+
+
+
+
+
+-- Script em pytho para importar os registros
+
+import mysql.connector
+from datetime import datetime
+
+# Conectar ao banco de dados MySQL
+db_connection = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="11534728",
+    database="ComercioDB"
+)
+
+cursor = db_connection.cursor()
+
+# Ler os dados do arquivo CSV
+with open('MOCK_DATA_CLIENTE.CSV', 'r') as csv_file:
+    next(csv_file)  # Pule o cabeçalho, se houver
+    for line in csv_file:
+        data = line.strip().split(',')
+        # Converter a data para o formato esperado pelo MySQL (YYYY-MM-DD)
+        data[4] = datetime.strptime(data[4], '%d.%m.%Y').strftime('%Y-%m-%d')
+        cursor.execute("INSERT INTO Cliente (cliente_id, nome, endereco, telefone, email, data_registro) VALUES (%s, %s, %s, %s, %s, %s)", data)
+
+# Ler os dados do arquivo CSV
+with open('MOCK_DATA_VENDEDOR.CSV', 'r') as csv_file:
+    next(csv_file)  # Pule o cabeçalho, se houver
+    for line in csv_file:
+        data = line.strip().split(',')
+        # Converter a data para o formato esperado pelo MySQL (YYYY-MM-DD)
+        data[4] = datetime.strptime(data[4], '%d.%m.%Y').strftime('%Y-%m-%d')
+        cursor.execute("INSERT INTO Vendedor (vendedor_id, nome, telefone, email, data_contratacao) VALUES (%s, %s, %s, %s, %s)", data)
+
+# Ler os dados do arquivo CSV
+with open('MOCK_DATA_PRODUTO.CSV', 'r') as csv_file:
+    next(csv_file)  # Pule o cabeçalho, se houver
+    for line in csv_file:
+        data = line.strip().split(',')
+        # Converter a data para o formato esperado pelo MySQL (YYYY-MM-DD)
+        data[4] = datetime.strptime(data[4], '%d.%m.%Y').strftime('%Y-%m-%d')
+        cursor.execute("INSERT INTO Produto (produto_id, nome, preco_compra, estoque) VALUES (%s, %s, %s, %s, %s)", data)
+
+# Confirmar as transações
+db_connection.commit()
+
+# Fechar a conexão
+cursor.close()
+db_connection.close()
