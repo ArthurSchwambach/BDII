@@ -1,9 +1,10 @@
 -- 1. Cliente com maior gasto por tipo
-SELECT c.nome Cliente, c.tipo Tipo, c.gasto Maior_Gasto
+SELECT DISTINCT c.nome Cliente, c.tipo Tipo, c.gasto Maior_Gasto
 FROM Cliente c
 WHERE c.gasto = (SELECT MAX(gasto)
                  FROM Cliente c2
                  WHERE c2.tipo = c.tipo);
+
 
 -- 2. Atendente que mais atendeu Cliente Premium
 
@@ -44,3 +45,18 @@ INNER JOIN Cliente c ON c.id_cliente = p.id_cliente
 INNER JOIN Atendente a ON a.id_atendente = p.id_atendente
 WHERE p.duracao >  (SELECT AVG(duracao) 
                     FROM Pedido);
+
+-- 6. Cliente com o maior gasto e o valor com desconto
+
+SELECT distinct c.nome Cliente, c.gasto Gasto_Inicial, calcular_desconto(gasto) Descontado
+FROM Cliente c
+WHERE c.gasto = (SELECT MAX(gasto)
+                 FROM Cliente ct);
+
+-- 7. O maior desconto dado a um cliente do tipo comum
+
+SELECT distinct c.nome Cliente, c.gasto - calcular_desconto(gasto) Maior_desconto_Comum
+FROM Cliente c
+WHERE calcular_desconto(gasto) = (SELECT MAX(calcular_desconto(gasto))
+                 FROM Cliente ct
+                 WHERE ct.tipo = 'Comum');
