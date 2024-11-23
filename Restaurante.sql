@@ -17,7 +17,7 @@ CREATE TABLE Mesa (
     id_mesa INT NOT NULL PRIMARY KEY AUTO_INCREMENT, 
     numero INT NOT NULL,
     capacidade TINYINT NOT NULL,
-    disponibilidade_mesa ENUM('Disponível', 'Ocupada', 'Reservada') DEFAULT 'Disponível'
+    disponibilidade_mesa ENUM('Disponível', 'Ocupada') DEFAULT 'Disponível'
 );
 
 
@@ -150,7 +150,7 @@ CREATE PROCEDURE AtualizarTipoClientes()
 BEGIN
     UPDATE Cliente
     SET tipo = CASE
-        WHEN gasto >= 5000 THEN 'Premium'
+        WHEN gasto >= 15000 THEN 'Premium'
         ELSE 'Comum'
     END;
 END$$
@@ -210,5 +210,3 @@ BEGIN
 END$$
 
 DELIMITER ;
-
-
