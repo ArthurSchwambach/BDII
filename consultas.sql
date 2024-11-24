@@ -46,6 +46,7 @@ INNER JOIN Atendente a ON a.id_atendente = p.id_atendente
 WHERE p.duracao >  (SELECT AVG(duracao) 
                     FROM Pedido);
 
+
 -- 6. Cliente com o maior gasto e o valor com desconto
 
 SELECT distinct c.nome Cliente, c.gasto Gasto_Inicial, calcular_desconto(gasto) Descontado

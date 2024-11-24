@@ -81,7 +81,7 @@ CREATE PROCEDURE AtualizarTipoClientes()
 BEGIN
     UPDATE Cliente
     SET tipo = CASE
-        WHEN gasto >= 5000 THEN 'Premium'
+        WHEN gasto >= 15000 THEN 'Premium'
         ELSE 'Comum'
     END;
 END$$
